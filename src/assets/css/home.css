@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+body {
+    background-color: rgba(0, 19, 38, 0.30)
+}
+.nav-box {
+    height: 150px;
+    margin: 30px 0;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+    line-height: 150px;
+}
+.nav-box .nav {
+    float: left;
+    height: 150px;
+    width: 100%;
+    display: flex;
+}
+.nav-box .nav .cac {
+    background-color: rgba(12, 12, 122, .6)
+}
+.nav-box .nav .ac {
+    background-color: rgba(122,122, 122, .8)
+}
+.nav-box .nav li{
+    height: 150px;
+    flex: 1;
+    font-size: 35px;
+}
+.ac{
+    background-color: rgba(55, 55, 155, .8);
+}
